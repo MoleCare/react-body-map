@@ -1,0 +1,34 @@
+version: 2
+updates:
+  # Dev tools only: the package has no run-time dependencies besides React,
+  # which is a peer. Minor and patch updates come grouped, once a week.
+  # Major updates come one pull request each, so each can be judged alone.
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      dev-tools:
+        dependency-type: development
+        update-types: [minor, patch]
+    ignore:
+      # Follows the Node version CI and .nvmrc use (22), not the newest Node.
+      - dependency-name: '@types/node'
+        update-types: [version-update:semver-major]
+      # typescript-eslint declares an upper bound on TypeScript, and minor
+      # versions can cross it too, so TypeScript moves only on purpose.
+      - dependency-name: typescript
+        update-types: [version-update:semver-major, version-update:semver-minor]
+      # Babel 8 needs babel-jest to support it first.
+      - dependency-name: '@babel/*'
+        update-types: [version-update:semver-major]
+    open-pull-requests-limit: 5
+
+  # Actions are pinned by SHA; this keeps the pins current.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ['*']
