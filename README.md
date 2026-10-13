@@ -173,6 +173,9 @@ privately as described in [SECURITY.md](SECURITY.md).
 Thank you to everyone who has helped @molecare/react-body-map.
 
 <!-- readme: contributors,bots/- -start -->
+<p align="center">
+  <a href="https://github.com/YauhenBichel" title="Yauhen Bichel" aria-label="Yauhen Bichel"><img src=".github/faces/YauhenBichel.svg" width="87" height="99" alt="Yauhen Bichel" /></a>
+</p>
 <!-- readme: contributors,bots/- -end -->
 
 The list is filled by [Contributors](./.github/workflows/contributors.yml) from
