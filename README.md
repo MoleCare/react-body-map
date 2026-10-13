@@ -168,6 +168,18 @@ privately as described in [SECURITY.md](SECURITY.md).
 > **Not a medical device.** This package draws a body diagram; it never says
 > what a count or a region means. It makes no clinical claim.
 
+## Contributors
+
+Thank you to everyone who has helped @molecare/react-body-map.
+
+<!-- readme: contributors,bots/- -start -->
+<!-- readme: contributors,bots/- -end -->
+
+The list is filled by [Contributors](./.github/workflows/contributors.yml) from
+GitHub commits, bots omitted — never hand-maintained, because a stale list is
+worse than none. [Contributor graph](https://github.com/MoleCare/react-body-map/graphs/contributors) ·
+[good first issue](https://github.com/MoleCare/react-body-map/labels/good%20first%20issue)
+
 ## Licence
 
 [Apache-2.0](LICENSE) © MoleCare LTD
