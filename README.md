@@ -185,4 +185,4 @@ worse than none. [Contributor graph](https://github.com/MoleCare/react-body-map/
 
 ## Licence
 
-[Apache-2.0](LICENSE) © MoleCare LTD
+[Apache-2.0](LICENSE) © Aleh Bichel

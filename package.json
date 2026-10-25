@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A front and back body map for React: pick a region, or show what was recorded per region. Accessible, every word a prop, left and right done right. No dependencies, SSR-safe, unstyled.",
   "license": "Apache-2.0",
-  "author": "MoleCare LTD <info@molecare.co.uk> (https://www.molecare.co.uk)",
+  "author": "Aleh Bichel <info@molecare.co.uk> (https://www.molecare.co.uk)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MoleCare/react-body-map.git"
